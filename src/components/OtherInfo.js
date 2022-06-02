@@ -35,7 +35,6 @@ function OtherInfo({ formData, setFormData, page, setPage, FormTitles }) {
         <button
           onClick={() => {
             if (page === FormTitles.length - 1) {
-              alert("FORM SUBMITTED");
               console.log(formData);
             } else {
               setPage((currPage) => currPage + 1);
